@@ -1,7 +1,9 @@
 # Bookshelf
 
 Dokumentacja Projektu 
+
 Weronika Materna
+
 Kurs: Język Python
 
 
