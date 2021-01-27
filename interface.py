@@ -1,7 +1,6 @@
 from managerFunctions import *
 
 
-
 def choices():
 
     infoTable = PrettyTable(["No", "Action"])
@@ -15,30 +14,31 @@ def choices():
     interface()
 
 def interface():
+    bookMng = BookManager("./data/itemsData.json")
     option = input()
     while True:
         if option == '1':
-            showBooks()
+            bookMng.showBooks()
             input("Press enter to see options again ")
             choices()
             break
         elif option == '2':
-            searchBook()
+            bookMng.searchBook()
             input("Press enter to see options again ")
             choices()
             break
         elif option == '3':
-            searchBookinAPI()
+            bookMng.searchBookinAPI()
             input("Press enter to see options again ")
             choices()
             break
         elif option == '4':
-            addBook()
+            bookMng.addBook()
             input("Press enter to see options again ")
             choices()
             break
         elif option == '5':
-            deleteBook()
+            bookMng.deleteBook()
             input("Press enter to see options again ")
             choices()
             break
