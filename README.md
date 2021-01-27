@@ -18,5 +18,4 @@ dodania nowej pozycji, usunięcia a także wyszukania określonej książki dzi�
 komunikacją pomiędzy użytkownikiem a programem, managerFunction.py zawierającą klasę BookManager zapewniającą całą funkcjonalność na
 bazie i main.py - wywołującą metody.
   Projekt korzysta z zewnętrznych bibliotek tj. json do obsługi operacji na formacie json (funkcje load i dump), 
-request połączenia sieciowego, prettytable i textwrap do formatowania tekstu wyświetlanego użytkownikowi w postaci tabel. 
-
+request połączenia sieciowego, prettytable i textwrap do formatowania tekstu wyświetlanego użytkownikowi w postaci tabel
