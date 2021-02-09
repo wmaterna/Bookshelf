@@ -24,9 +24,9 @@ API z którego korzysta projekt to [GoogleBooksAPI](https://developers.google.co
 bazie
 * main.py - wywołującą metody
 ###Zewnętrzne biblioteki:
-> *JSON \
+> * JSON \
   Użycie funkcji load() i dump()\
-> *REQUEST\
+> * REQUEST\
   Do połąćzenia sieciowego\
-> *PrettyTable i TextWrap \
+> * PrettyTable i TextWrap \
   Do formatowania tekstu do postaci tabel\
