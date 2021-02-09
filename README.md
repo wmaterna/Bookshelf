@@ -2,7 +2,7 @@
 
 Dokumentacja Projektu\
 Weronika Materna\
-Kurs: Język Python\
+Kurs: Język Python
 
 
 
