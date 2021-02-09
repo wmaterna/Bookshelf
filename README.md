@@ -25,7 +25,7 @@ bazie
 * main.py - wywołującą metody
 ###Zewnętrzne biblioteki:
 > JSON 
-Użycie funkcji load() i dump()
+**Użycie funkcji load() i dump()**
 > REQUEST
 Do połąćzenia sieciowego
 > PrettyTable i TextWrap 
